@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+body {
+  margin: 0;
+  font-family: "Nanum Gothic Coding", system-ui;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

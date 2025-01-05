@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 2;
+    box-shadow: 1px 1px 1px 1px #000;
+}
+.icon{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.links a{
+    color: #000;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+}
+.links a:hover{
+    color: #e77635;
+}
+
+
+@media screen and (max-width : 750px) {
+    .icon h2{
+        font-size: 22px;
+    }
+    .links a{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width : 650px) {
+    .links{
+        gap: 20px;
+    }
+    .icon h2{
+        display: none;
+    }
+    .links a{
+        font-size: 12px;
+    }
+}

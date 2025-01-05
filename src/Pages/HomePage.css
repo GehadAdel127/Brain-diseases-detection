@@ -1,0 +1,95 @@
+.home{
+    background-image: url('../images/pexels-pixabay-159711.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+.homeparagraph{
+    background-color: #fff;
+    padding: 70px 100px;
+    text-align: center;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.homeparagraph h2{
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.homeparagraph p{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.allPosts{
+    background-color: #f0eded;
+    text-align: center;
+    padding-top: 100px;
+}
+.searchContainer input{
+    padding: 12px;
+    border:1px solid #000;
+    margin: 20px 0px;
+    width: 90%;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    flex-direction: column;
+    width: 400px;
+    min-height: 520px;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 0 4px 5px -2px #000;
+
+    transition: 0.5s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.07);
+}
+.articleInfo{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.articleInfo p , .articleInfo h2{
+    transition: 0.3s ease-in-out;
+}
+.articleInfo p:hover, .articleInfo h2:hover{
+    color: #e77635;
+}
+.articleInfo span{
+    border: 1px solid #000;
+}
+.authorName{
+    font-weight: 800;
+}
+.blogDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+@media screen and (max-width : 550px) {
+    .homeparagraph{
+        padding: 35px 15px;
+    }
+    .card{
+        width: 300px;
+    }
+}

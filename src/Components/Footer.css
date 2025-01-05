@@ -1,0 +1,103 @@
+.footer {
+    background-color: #323232;
+    color: white;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 1200px;
+}
+.footer-about {
+    flex: 1;
+    max-width: 300px;
+}
+.footer-about h3 {
+    color: #E77635;
+    margin-bottom: 10px;
+}
+.footer-about p {
+    color: #f1f1f1;
+    line-height: 1.5;
+}
+.footer-nav {
+    flex: 1;
+    max-width: 300px;
+}
+.footer-nav h3 {
+    color: #E77635;
+    margin-bottom: 10px;
+}
+.footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-nav li {
+    margin-bottom: 10px;
+}
+.footer-nav li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.footer-nav li a:hover {
+    color: #E77635;
+}
+.footer-social {
+    flex: 1;
+    max-width: 300px;
+}
+.footer-social h3 {
+    color: #E77635;
+    margin-bottom: 10px;
+}
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+.social-icon::before {
+    content: '';
+    background-size: 20px;
+    background-repeat: no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.social-icon.facebook::before {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/733/733547.png');
+}
+.social-icon.twitter::before {
+background-image: url('https://cdn-icons-png.flaticon.com/512/733/733579.png');
+}
+.social-icon.instagram::before {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/733/733558.png');
+}
+.social-icon.linkedin::before {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/733/733561.png');
+}
+.footer-bottom {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #f1f1f1;
+    width: 100%;
+}
+.footer-bottom p {
+    margin: 0;
+    color: #E77635;
+}
